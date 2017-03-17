@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Welcome</div>
-                <p>This is the plaaplaa</p>
+                <div class="title">Contact</div>
+                <p>weeweewee@jeejeejee.ee</p>
             </div>
         </div>
     </body>
