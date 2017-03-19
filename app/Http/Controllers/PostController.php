@@ -56,7 +56,7 @@ class PostController extends Controller
         
         // redirect to another page
         
-        return redirect()->route->('posts.show', $post->id);
+        return redirect()->route('posts.show', $post->id);
         
     }
 
