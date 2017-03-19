@@ -40,10 +40,7 @@ class PostController extends Controller
     {
         // validate the data
         
-        $this->validate($request, array(
-                'title' =>'required|max:256', 
-                'body'  => 'required'
-            )); 
+        $this->validate($request, array('title' =>'required|max:256', 'body'  => 'required')); 
         
         // store in the database
         
