@@ -37,8 +37,8 @@
                         <tr>
                             <th> {{ $post->id }} </th>
                             <td> {{ $post->title }} </td>
-                            <td> {{ substr($post->body, 0, 50) }}{{ strlen(post->body)? "..." : "" }} </td>
-                            <td> {{ date('j.M.Y H:i', strtotime($post->created_at)) }} </td>
+                            <td> {{ substr($post->body, 0, 50) }}{{ strlen(post->body) > 50 ? "..." : "" }} </td>
+                            <td> {{ date('j.M.Y', strtotime($post->created_at)) }} </td>
                             <td> <a href="{{ route('posts.show', $post->id) }}" class="btn btn-default btn-sm">View</a> 
                                 <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-default btn-sm">Edit</a></td>
                         </tr>     
