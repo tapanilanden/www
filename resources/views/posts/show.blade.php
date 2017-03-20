@@ -17,12 +17,12 @@
                 
                 <dl class="dl-horizontal">
                     <dt>Created at:</dt>
-                    <dd>{{ date('j.M.Y H:i', strtotime($post->created_at)) }}</dd>
+                    <dd>{{ date('j.m.Y H:i', strtotime($post->created_at)) }}</dd>
                 </dl>
                 
                 <dl class="dl-horizontal">
                     <dt>Edited at:</dt>
-                    <dd>{{ date('j.M.Y H:i', strtotime($post->updated_at)) }}</dd>
+                    <dd>{{ date('j.m.Y H:i', strtotime($post->updated_at)) }}</dd>
                 </dl>
                 <hr>
                 
