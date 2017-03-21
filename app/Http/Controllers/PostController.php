@@ -129,7 +129,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
         
-        post->delete();
+        $post->delete();
         
         Session::flash('success', 'The post was successfully deleted!');
         
