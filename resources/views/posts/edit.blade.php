@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-            {!! Form::clode() !!}
+            {!! Form::close() !!}
     </div> <!-- end of .row (form) -->
 
 @stop
