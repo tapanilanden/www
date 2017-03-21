@@ -106,7 +106,7 @@ class PostController extends Controller
         )); 
         
         //save
-        $post = find($id);
+        $post = Post::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
         
