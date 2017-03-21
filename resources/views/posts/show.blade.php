@@ -33,7 +33,7 @@
                     <div class="col-sm-6">
                         {!! Form::open(['route' => ['posts.destroy', $post->id], 'method' => 'delete']) !!}  
                         
-                        {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block'] !!}
+                        {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block']) !!}
                         
                         {!! Form::close() !!}
                     </div>
