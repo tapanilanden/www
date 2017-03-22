@@ -43,11 +43,12 @@
                                 <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-default btn-sm">Edit</a></td>
                         </tr>     
                     @endforeach
-                </tbody>
-                
-                
+                </tbody>  
             </table>
         
+            <div class="text-center">
+                {!! $posts->links(); !!}
+            </div>
         </div>
     
     <div>
