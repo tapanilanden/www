@@ -15,7 +15,7 @@ class PagesController extends Controller {
     
         $first = "Jee";
         $last = "Eee";
-        $testi = request->url();
+        $testi = Request::request->url();
         $fullname = $first . " " . $last;
         $email = 'weeweewee@jeejeejee.ee';
         $data = [];
