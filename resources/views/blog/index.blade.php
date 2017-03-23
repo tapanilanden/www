@@ -10,7 +10,7 @@
         </div>
     </div>
     
-    @foreach($posts => $post)
+    @foreach($posts as $post)
     <div class="row">
         <div class="col-md-8 col-offset-2">
             <h1>{{ $post->title }}</h1>
