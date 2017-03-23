@@ -13,7 +13,7 @@
                 Väinämöisen, alta ahjon Ilmarisen, päästä kalvan Kaukomielen, Joukahaisen jousen tiestä, 
                 Pohjan peltojen periltä, Kalevalan kankahilta.
                 </p>
-            
+                {{ $data[testi] }}
             </div>
         </div>
 @endsection

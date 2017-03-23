@@ -17,7 +17,7 @@
             
         </div>
         
-        {{ $testi }}
+        
         
         @include('partials._javascripts')   
         @yield('scripts')
