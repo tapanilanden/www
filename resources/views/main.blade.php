@@ -16,7 +16,9 @@
             @include('partials._footer')
             
         </div>
-
+        
+        {{ $testi }}
+        
         @include('partials._javascripts')   
         @yield('scripts')
     

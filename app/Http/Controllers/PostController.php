@@ -46,7 +46,11 @@ class PostController extends Controller
     {
         // validate the data
         
-        $this->validate($request, array('title' =>'required|max:256', 'body'  => 'required')); 
+        $this->validate($request, array(
+            'title' =>'required|max:255',
+            'slug' => 'required|alpha_dash|min:5|max:255',
+            'body'  => 'required' 
+            )); 
         
         // store in the database
         
@@ -101,7 +105,8 @@ class PostController extends Controller
     {
         //validate
         $this->validate($request, array(
-            'title' =>'required|max:256', 
+            'title' =>'required|max:256',
+            'slug' => 'required|alpha_dash|min:5|max:256',
             'body'  => 'required'
         )); 
         
