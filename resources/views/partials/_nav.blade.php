@@ -16,6 +16,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class=" {{ Request::is('https://www3.sis.uta.fi/~tl415565/laravel/') ? "active" : "" }} "><a href="https://www3.sis.uta.fi/~tl415565/laravel/">Home</a></li>
+            <li class=" {{ Request::is('https://www3.sis.uta.fi/~tl415565/laravel/blog') ? "active" : "" }} "><a href="https://www3.sis.uta.fi/~tl415565/laravel/blog">Blog</a></li>
             <li class=" {{ Request::is('https://www3.sis.uta.fi/~tl415565/laravel/about') ? "active" : "" }} "><a href="https://www3.sis.uta.fi/~tl415565/laravel/about">About</a></li>
             <li class=" {{ Request::is('https://www3.sis.uta.fi/~tl415565/laravel/contact') ? "active" : "" }} "><a href="https://www3.sis.uta.fi/~tl415565/laravel/contact">Contact</a></li>
             
