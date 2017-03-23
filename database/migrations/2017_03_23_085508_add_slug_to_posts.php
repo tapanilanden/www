@@ -13,7 +13,7 @@ class AddSlugToPosts extends Migration
     public function up()
     {
         Schema::table('posts', function($table) {
-            $table->string('slug');
+            $table->string('slug')->unique();
         });
     }
 
@@ -25,7 +25,7 @@ class AddSlugToPosts extends Migration
     public function down()
     {
         Schema::table('posts', function($table) {
-            $table->dropColumn()
+            $table->dropColumn('slug');
         });
     }
 }
