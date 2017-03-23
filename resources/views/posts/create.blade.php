@@ -12,7 +12,7 @@
                 {{ Form::label('title', 'Title:') }}
                 {{ Form::text('title', null, array('class' => 'form-control')) }}
                 
-                {{ Form::label('slug', 'Slug') }}
+                {{ Form::label('slug', 'Slug:') }}
                 {{ Form::text('slug', null, ['class' => 'form-control']) }}
                 
                 {{ Form::label('body', "Post Body:") }}
