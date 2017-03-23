@@ -10,7 +10,7 @@
             <hr>
             {!! Form::open(['route' => 'posts.store']) !!}
                 {{ Form::label('title', 'Title:') }}
-                {{ Form::text('title', null, array('class' => 'form-control')) }}
+                {{ Form::text('title', $post->id, array('class' => 'form-control')) }}
                 
                 {{ Form::label('slug', 'Slug:') }}
                 {{ Form::text('slug', null, ['class' => 'form-control']) }}
