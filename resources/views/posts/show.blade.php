@@ -17,7 +17,7 @@
             
                 <dl class="dl-horizontal">
                     <dt>URL:</dt>
-                    <dd>{{  }}</dd>
+                    <dd><a href="{{ url($post->slug) }}">{{ url($post->slug) }}</a></dd>
                 </dl>
                 
                 <dl class="dl-horizontal">
